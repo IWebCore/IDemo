@@ -1,0 +1,5 @@
+{
+    "packages":{
+        "nlohmann.json" : "3.12.0"
+    }
+}
