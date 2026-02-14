@@ -14,5 +14,8 @@ public:
     QString index();
 
     $GetMapping(hello)
-    QString hello(QString name);
+    QString hello(std::string name);
+
+    $PostMapping(welcome)
+    QString welcome(QString $Query(name));
 };

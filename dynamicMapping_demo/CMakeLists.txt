@@ -16,7 +16,7 @@ add_executable(dynamicMapping_demo
   main.cpp
   IndexController.h IndexController.cpp
 )
-
+target_compile_definitions(dynamicMapping_demo PRIVATE _WIN32_WINNT=0x0601)
 target_link_libraries(dynamicMapping_demo Qt${QT_VERSION_MAJOR}::Core)
 target_link_libraries(dynamicMapping_demo ws2_32 mswsock)
 
