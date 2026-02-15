@@ -2,7 +2,8 @@
 
 #include <http/controller/IHttpControllerInterface.h>
 
-class IndexController : public IHttpControllerInterface<IndexController>
+class IndexController
+    : public IHttpControllerInterface<IndexController>
 {
     Q_GADGET
     $AsController(/)

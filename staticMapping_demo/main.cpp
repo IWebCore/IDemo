@@ -1,4 +1,3 @@
-#include "core/application/iApp.h"
 #include <core/application/IApplication.h>
 #include <http/IHttpServer.h>
 #include <http/assets/IHttpAssetsAnnomacro.h>
